@@ -3,27 +3,23 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+    BOT_TOKEN = "5881051237:AAHqeZqxp2VX9Itcmann3l2NC8paGSb6lzw"
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    SESSION_NAME = "anything"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_ID = "17983098"
 
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = "ee28199396e0925f1f44d945ac174f64"
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_ID = "664256487809-21lnbeqr7cau7fng78oeli1bnqcjthvp.apps.googleusercontent.com"
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    CLIENT_SECRET = "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"
 
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = "1227193881"
 
-    AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
+    AUTH_USERS_TEXT = "1227193881"
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + (
-        [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
-        if AUTH_USERS_TEXT
-        else []
-    )
+    AUTH_USERS = "1227193881"
 
     VIDEO_DESCRIPTION = (
         os.environ.get("VIDEO_DESCRIPTION", "").replace("<", "").replace(">", "")
@@ -39,11 +35,6 @@ class Config:
 
     DEBUG = bool(os.environ.get("DEBUG"))
 
-    UPLOAD_MODE = os.environ.get("UPLOAD_MODE") or False
-    if UPLOAD_MODE:
-        if UPLOAD_MODE.lower() in ["private", "public", "unlisted"]:
-            UPLOAD_MODE = UPLOAD_MODE.lower()
-        else:
-            UPLOAD_MODE = False
+    UPLOAD_MODE = "private"
 
     CRED_FILE = "auth_token.txt"

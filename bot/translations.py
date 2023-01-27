@@ -1,8 +1,8 @@
 class Messages:
 
     START_MSG = (
-        "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube "
-        "once you authorise me.You can know more from /help.\n\nThank you."
+        " السلام عليكم يا  {}.\n\nأنا بوت أقوم برفع الفيديوهات من تلجرام إلى يوتيوب \n\n لمزيد من المعلومات اضغط \n\n /help "
+        "\n\n طريقة استخدام البوت هنا \n\n https://t.me/ibnAlQyyim/1285 \n\n لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 \n\n و لدعم استمرار المشروع هنا \n\n http://paypal.me/kelectronic89 "
     )
 
     HELP_MSG = [

@@ -3,7 +3,7 @@ import os
 
 class Config:
 
-    BOT_TOKEN = "6197523213:AAHhYB_zTAFWuY8obKXEdueG4TJ99wlfSpg"
+    BOT_TOKEN = "6226680808:AAGUotuT2O7UxAZtfdBgK7sEfZEBCbJ6yQ8"
 
     SESSION_NAME = "anything"
 
@@ -11,13 +11,13 @@ class Config:
 
     API_HASH = "ee28199396e0925f1f44d945ac174f64"
 
-    CLIENT_ID = "389708947332-oienmum8v600cegsnhb6puk4prsv3pf6.apps.googleusercontent.com"
+    CLIENT_ID = "240841588405-0lgevc4d7vrea4p4qh79ar5dr10vh5or.apps.googleusercontent.com"
 
-    CLIENT_SECRET = "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"
+    CLIENT_SECRET = "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"
 
-    BOT_OWNER = "1227193881"
+    BOT_OWNER = "6234365091"
 
-    AUTH_USERS_TEXT = "1227193881"
+    AUTH_USERS_TEXT = "6234365091"
 
     AUTH_USERS = [BOT_OWNER, 374321319] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]

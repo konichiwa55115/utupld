@@ -3,4 +3,4 @@ git clone https://github.com/konichiwa55115/utupld /LazyDeveloper
 cd /LazyDeveloper
 pip3 install -r requirements.txt
 echo "Starting Bot...."
-python3 -m bot
+gunicorn app:app & python3 -m bot
